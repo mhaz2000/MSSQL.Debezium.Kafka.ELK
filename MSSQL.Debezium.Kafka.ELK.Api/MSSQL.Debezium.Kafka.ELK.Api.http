@@ -1,0 +1,6 @@
+@MSSQL.Debezium.Kafka.ELK.Api_HostAddress = http://localhost:5078
+
+GET {{MSSQL.Debezium.Kafka.ELK.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

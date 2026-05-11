@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQL.Debezium.Kafka.ELK.Api", "MSSQL.Debezium.Kafka.ELK.Api\MSSQL.Debezium.Kafka.ELK.Api.csproj", "{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQL.Debezium.Kafka.ELK.Domain", "MSSQL.Debezium.Kafka.ELK.Domain\MSSQL.Debezium.Kafka.ELK.Domain.csproj", "{52EFBCB2-18E1-4A32-903B-6E9990C718EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQL.Debezium.Kafka.ELK.Infrastructure", "MSSQL.Debezium.Kafka.ELK.Infrastructure\MSSQL.Debezium.Kafka.ELK.Infrastructure.csproj", "{B7693F28-C01F-4872-80BD-9DC07BA677F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQL.Debezium.Kafka.ELK.Application", "MSSQL.Debezium.Kafka.ELK.Application\MSSQL.Debezium.Kafka.ELK.Application.csproj", "{3B4A845E-3610-4650-80B3-4575E0DE6331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EFBCB2-18E1-4A32-903B-6E9990C718EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EFBCB2-18E1-4A32-903B-6E9990C718EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EFBCB2-18E1-4A32-903B-6E9990C718EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EFBCB2-18E1-4A32-903B-6E9990C718EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7693F28-C01F-4872-80BD-9DC07BA677F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7693F28-C01F-4872-80BD-9DC07BA677F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7693F28-C01F-4872-80BD-9DC07BA677F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7693F28-C01F-4872-80BD-9DC07BA677F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4A845E-3610-4650-80B3-4575E0DE6331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4A845E-3610-4650-80B3-4575E0DE6331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4A845E-3610-4650-80B3-4575E0DE6331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4A845E-3610-4650-80B3-4575E0DE6331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BB9B27B-7282-45D0-9A87-A0D6B7D9F214} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{52EFBCB2-18E1-4A32-903B-6E9990C718EE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B7693F28-C01F-4872-80BD-9DC07BA677F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3B4A845E-3610-4650-80B3-4575E0DE6331} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB73B33-4391-4A02-B7F2-156B15947A70}
+	EndGlobalSection
+EndGlobal
